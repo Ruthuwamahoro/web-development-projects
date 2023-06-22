@@ -1,0 +1,114 @@
+body{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    /*background-color: rgb(176, 219, 236);*/
+    
+}
+.menu{/*container for both link and logo*/
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(160, 172, 243);
+    height: 100px;
+    align-items: center;
+    padding:0 20px;
+    
+    
+}
+.container{ /*flex container for the link*/
+    display: flex;
+}
+.menu div p{/*styling the logo*/
+    margin-top: 0px;
+}
+.container div a{ /*decorating link them selves*/
+    margin-left: 20px;
+    text-decoration-line: none;
+}
+a:hover{
+    color: white;
+}
+/*styling welcome page*/
+.welcome-page{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+i{
+    font-weight: bold;
+    color: blue;
+}
+.welcome-info{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+.theme{
+    line-height: 40px;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(108, 11, 236);
+}
+.service{
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background-color: rgb(231, 229, 229);
+    box-shadow: 1px 1px 8px rgba(0,0,0,.5);
+}
+
+.design{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+h3{
+    color: black
+}
+.service-word{
+    font-size: 40px;
+    text-align: center;
+}
+.facebook-icon {
+    color: #3b5998;
+}
+.gmail-icon {
+    color: #dd4b39;
+}
+.instagram-icon {
+    color: #c13584;
+}
+.twitter-icon {
+    color: #1da1f2;
+}
+.decor{
+    background-color: rgb(9, 43, 77);
+    height: 200px;
+}
+.visit{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    font-size: larger;
+    font-style: italic;
+}
+small{
+    color:white;
+}
+
+.copyright-social{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin:100px 0px;
+}
+.socialmedia-icons a{
+    margin-left: 10px;
+}
+
+
+
+
+
